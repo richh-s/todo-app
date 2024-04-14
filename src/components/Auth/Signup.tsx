@@ -24,26 +24,7 @@ const SignupPage = () => {
               className="block w-full border-2 border-gray-400 rounded-md shadow-sm focus:border-purple-400 focus:ring focus:ring-purple-400 focus:ring-opacity-50 bg-white text-gray-800 placeholder-gray-400 px-3 py-1"
             />
           </div>
-          <div className="mb-4">
-            <label className="block text-gray-700">Password:</label>
-            <input
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required
-              className="block w-full border-2 border-gray-400 rounded-md shadow-sm focus:border-purple-400 focus:ring focus:ring-purple-400 focus:ring-opacity-50 bg-white text-gray-800 placeholder-gray-400 px-3 py-1"
-            />
-          </div>
-          <div className="mb-4">
-            <label className="block text-gray-700">Confirm Password:</label>
-            <input
-              type="password"
-              value={confirmPassword}
-              onChange={(e) => setConfirmPassword(e.target.value)}
-              required
-              className="block w-full border-2 border-gray-400 rounded-md shadow-sm focus:border-purple-400 focus:ring focus:ring-purple-400 focus:ring-opacity-50 bg-white text-gray-800 placeholder-gray-400 px-3 py-1"
-            />
-          </div>
+         
           <button
             type="submit"
             className="block w-full bg-purple-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-purple-700 focus:outline-none focus:bg-purple-700 mb-4"
